@@ -2,7 +2,7 @@
 
 **Pley** is a Yelp search app using the [Yelp API](http://www.yelp.com/developers/documentation/v2/search_api).
 
-Time spent: **1** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
@@ -10,12 +10,12 @@ The following **required** functionality is completed:
 
 - [x] Table rows for search results should be dynamic height according to the content height.
 - [x] Custom cells should have the proper Auto Layout constraints.
-- [ ] Search bar should be in the navigation bar (doesn't have to expand to show location like the real Yelp app does).
+- [x] Search bar should be in the navigation bar (doesn't have to expand to show location like the real Yelp app does).
 
 The following **optional** features are implemented:
 
 - [ ] Search results page
-- [ ] Infinite scroll for restaurant results.
+- [x] Infinite scroll for restaurant results.
 - [ ] Implement map view of restaurant results.
 - [ ] Implement the restaurant detail page.
 
@@ -25,20 +25,21 @@ The following **additional** features are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. 
-2. 
+1. How to implement a map view
+2. How ot get the search results to constantly refilter
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/5wu92w3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+I tried to do the infinite scrolling. However, I did not know what to put for the NSURLRequest so I jsut made it the api key. However, that did not seem to completely work because Yelp's api has a lot of security so it didnt really pull on that request. I would like to figure out how to get around that. 
 
 ## License
 
